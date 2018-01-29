@@ -1,0 +1,113 @@
+
+/*** CSS for Brittany Portfolio **/
+
+body {
+    margin: 0px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-repeat: repeat;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+.contentcontainer {
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+   
+}
+
+a:hover { 
+    color:#4aaaa5;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2:after
+{
+    content:' ';
+    display:block;
+    border:2px solid black;
+}
+
+a, p {
+    text-decoration: none;
+    color: #777777;
+}
+  
+/*** Header CSS **/
+
+
+header {
+  padding: 20px 20px 0px 20px;
+  margin-bottom: 20px;
+  background: #ffffff;
+  width: 100%;
+  border-bottom: 2px solid #cccccc;
+  
+  
+}
+
+#logo {
+    color: #ffffff;
+    padding: 20px;
+    margin-bottom: 0%;
+    background: #4aaaa5;
+    float: left;
+    position: relative;
+
+}
+
+#navigation {
+    float: right;
+    position: relative;
+    padding: 20px;
+    right: 50px;
+
+}
+
+/*** Content **/
+
+textbody {
+    background: #cccccc;
+}
+
+#maincontent {
+    width: 610px;
+    float: left;
+    background: #cccccc;
+    padding:20px;
+    
+
+}
+
+#sidebar {
+    width: 270px;
+    float: right;
+    border: 2px solid black;
+    background: #ccc;
+    
+
+}
+
+
+/*** Footer **/
+
+footer {
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    border: 2px solid #4aaaa5;
+    background: #666666;
+    text-align: center;
+  }
