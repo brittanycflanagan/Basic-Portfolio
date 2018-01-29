@@ -15,8 +15,6 @@ body {
   }
 
 .contentcontainer {
-    padding-right: 15px;
-    padding-left: 15px;
     width: 960px;
     margin-right: auto;
     margin-left: auto;
@@ -27,7 +25,12 @@ a:hover {
     color:#4aaaa5;
 }
 
+img {
+    float: left;
+    
+}
 h1, h2, h3 {
+    color:#4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -35,7 +38,14 @@ h2:after
 {
     content:' ';
     display:block;
-    border:2px solid black;
+    border:2px solid #ccc;
+}
+
+h3:after
+{
+    content:' ';
+    display:block;
+    border:1px solid #ccc;
 }
 
 a, p {
@@ -47,14 +57,14 @@ a, p {
 
 
 header {
-  padding: 20px 20px 0px 20px;
-  margin-bottom: 20px;
-  background: #ffffff;
-  width: 100%;
-  border-bottom: 2px solid #cccccc;
-  
-  
-}
+    margin-bottom: 20px;
+    padding: 20px 0px 0px 0px;
+    background: #ffffff;
+    width: 100%;
+    border-bottom: 2px solid #cccccc;
+    
+    
+  }
 
 #logo {
     color: #ffffff;
@@ -77,23 +87,23 @@ header {
 /*** Content **/
 
 textbody {
-    background: #cccccc;
+    
 }
 
 #maincontent {
     width: 610px;
     float: left;
-    background: #cccccc;
+    background: #fff;
     padding:20px;
     
 
 }
 
 #sidebar {
-    width: 270px;
+    padding: 5px 15px 25px 15px;
+    width: 240px;
     float: right;
-    border: 2px solid black;
-    background: #ccc;
+    background: #fff;
     
 
 }
@@ -102,12 +112,16 @@ textbody {
 /*** Footer **/
 
 footer {
-    padding: 20px;
-    margin-bottom: 20px;
-    position: relative;
-    width: 100%;
+    padding: 20px 0px 0px 0px;
+    margin-top: 20px;
+    position: absolute;
     height: 150px;
-    border: 2px solid #4aaaa5;
+    border-top: 5px solid #4aaaa5;
     background: #666666;
     text-align: center;
+    color: #ccc;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+  
   }
