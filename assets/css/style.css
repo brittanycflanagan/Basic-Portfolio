@@ -29,6 +29,11 @@ img {
     float: left;
     
 }
+
+b {
+    font-weight: bold;
+}
+
 h1, h2, h3 {
     color:#4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -51,6 +56,7 @@ h3:after
 a, p {
     text-decoration: none;
     color: #777777;
+    
 }
   
 /*** Header CSS **/
@@ -106,6 +112,53 @@ header {
 
 }
 
+
+.portfolio-images {
+    width: 260px;
+    padding: 20px;
+    float: left;
+    
+}
+
+.textoverimage {
+    padding:8px 20px;
+    width:220px;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.imagecontainer {
+    position: relative;
+
+}
+
+
+
+/*** text ids **/
+
+#righttext {
+    position: absolute;
+    left: 320px;
+    top: 200px;
+    line-height: 1.2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+
+    
+}
+
+#lefttext {
+    position: absolute;
+    left: 20px;
+    top: 200px;
+    line-height: 1.2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+   
+}
 
 /*** Footer **/
 
