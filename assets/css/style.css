@@ -1,5 +1,4 @@
-
-/*** CSS for Brittany Portfolio **/
+/*** Standard CSS Elements**/
 
 body {
     margin: 0px;
@@ -14,12 +13,6 @@ body {
     clear: both;
   }
 
-.contentcontainer {
-    width: 960px;
-    margin-right: auto;
-    margin-left: auto;
-   
-}
 
 a:hover { 
     color:#4aaaa5;
@@ -59,7 +52,7 @@ a, p {
     
 }
   
-/*** Header CSS **/
+/*** CSS for Header **/
 
 
 header {
@@ -68,7 +61,6 @@ header {
     background: #ffffff;
     width: 100%;
     border-bottom: 2px solid #cccccc;
-    
     
   }
 
@@ -90,16 +82,20 @@ header {
 
 }
 
-/*** Content **/
+/*** CSS for Content of Page **/
 
-
+.contentcontainer {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+   
+}
 
 #maincontent {
     width: 610px;
     float: left;
     background: #fff;
-    padding:20px;
-    
+    padding:20px; 
 
 }
 
@@ -108,16 +104,12 @@ header {
     width: 240px;
     float: right;
     background: #fff;
-    
-
 }
-
 
 .portfolio-images {
     width: 260px;
     padding: 20px;
     float: left;
-    
 }
 
 .textoverimage {
@@ -135,9 +127,10 @@ header {
 
 }
 
-
-
-/*** text ids **/
+form {
+    line-height: 1.5;
+    font-size: 18px;
+}
 
 #righttext {
     position: absolute;
@@ -146,8 +139,6 @@ header {
     line-height: 1.2;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 14px;
-
-    
 }
 
 #lefttext {
@@ -160,7 +151,7 @@ header {
    
 }
 
-/*** Footer **/
+/*** CSS for Footer **/
 
 footer {
     padding: 20px 0px 0px 0px;
